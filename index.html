@@ -26,9 +26,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/web build.loader.js";
       var config = {
-        dataUrl: buildUrl + "/web build.data.gz",
-        frameworkUrl: buildUrl + "/web build.framework.js.gz",
-        codeUrl: buildUrl + "/web build.wasm.gz",
+        dataUrl: buildUrl + "/web build.data",
+        frameworkUrl: buildUrl + "/web build.framework.js",
+        codeUrl: buildUrl + "/web build.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "marvelinus games",
         productName: "space shooter 1.0.apk",
@@ -45,8 +45,8 @@
         container.className = "unity-mobile";
         config.devicePixelRatio = 1;
       } else {
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.width = "1080px";
+        canvas.style.height = "1920px";
       }
       loadingBar.style.display = "block";
 
